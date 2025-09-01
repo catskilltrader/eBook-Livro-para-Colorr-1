@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caderno de Colorir Mágico | 200+ Desenhos para Imprimir</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17457127974"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17457127974');
+    </script>
+    
     <style>
         * {
             margin: 0;
@@ -298,7 +308,7 @@
                 <div class="benefit-item">
                     <img src="https://cdn-icons-png.flaticon.com/512/2232/2232688.png" alt="Educativo">
                     <h3>Diversão Educativa</h3>
-                    <p>Ajuda no desenvolvimento da coordenação motora, criatividade e concentração.</p>
+                    <p>Ajuda no desenvolvimento da coordenação motora, criatividade и concentração.</p>
                 </div>
             </div>
         </div>
@@ -329,7 +339,7 @@
     <section class="offer" id="oferta">
         <div class="container">
             <h2>Oferta por Tempo Limitado!</h2>
-            <p>Adquira agora o Caderno de Colorir Digital + Bônus e proporcione horas de diversão criativa para seu filho!</p>
+            <p>Adquira agora o Caderno de Colorir Digital + Bônus e proporcione horas de diversão creativa para seu filho!</p>
             
             <div style="margin: 20px 0;">
                 <span style="text-decoration: line-through; color: #fff; font-size: 1.5rem;">De R$ 49,90</span>
@@ -341,7 +351,7 @@
             <p style="color: white;">ou em 1x no cartão</p>
             
             <!-- BOTÃO COM LINK DA HOTMART INTEGRADO -->
-            <a href="https://pay.hotmart.com/G101432915X" class="cta-button" style="background-color: #ff6b6b;" target="_blank">COMPRAR AGORA!</a>
+            <a href="https://pay.hotmart.com/G101432915X" class="cta-button" style="background-color: #ff6b6b;" target="_blank" onclick="gtag('event', 'conversion', {'send_to': 'AW-17457127974/your-conversion-id'});">COMPRAR AGORA!</a>
             
             <div class="guarantee">
                 <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" alt="Garantia">
@@ -356,5 +366,16 @@
             <p>Produto digital - envio imediato por e-mail após a compra.</p>
         </div>
     </footer>
+
+    <script>
+        // Adicionando evento de conversão ao Google Ads quando o usuário clica para comprar
+        document.querySelector('a[href="https://pay.hotmart.com/G101432915X"]').addEventListener('click', function() {
+            gtag('event', 'conversion', {
+                'send_to': 'AW-17457127974/your-conversion-id',
+                'value': 12.90,
+                'currency': 'BRL'
+            });
+        });
+    </script>
 </body>
 </html>
