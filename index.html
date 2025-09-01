@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Caderno de Colorir Mágico | 200+ Desenhos para Imprimir</title>
     
     <!-- Google tag (gtag.js) -->
@@ -19,13 +19,15 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Comic Sans MS', cursive, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
         
         body {
             background-color: #fff9e6;
             color: #333;
             line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         
         .container {
@@ -101,12 +103,14 @@
             margin-bottom: 20px;
             color: #ff6b6b;
             text-shadow: 2px 2px 0 #ffcc5c;
+            font-family: 'Arial Rounded MT Bold', 'Arial', sans-serif;
         }
         
         h2 {
             font-size: 2rem;
             margin-bottom: 15px;
             color: #4ecdc4;
+            font-family: 'Arial Rounded MT Bold', 'Arial', sans-serif;
         }
         
         p {
@@ -128,6 +132,7 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             border: none;
             cursor: pointer;
+            font-family: 'Arial Rounded MT Bold', 'Arial', sans-serif;
         }
         
         .cta-button:hover {
@@ -265,6 +270,85 @@
             
             .header-title {
                 font-size: 2rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            p {
+                font-size: 1rem;
+            }
+            
+            .cta-button {
+                font-size: 1.1rem;
+                padding: 12px 25px;
+            }
+            
+            .hero-content, .hero-image {
+                padding: 10px;
+            }
+            
+            .testimonial-item {
+                padding: 20px;
+            }
+            
+            .testimonial-item::before {
+                font-size: 3rem;
+                top: -10px;
+            }
+            
+            .price {
+                font-size: 2.5rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .header-title {
+                font-size: 1.8rem;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            h2 {
+                font-size: 1.3rem;
+            }
+            
+            .cta-button {
+                font-size: 1rem;
+                padding: 10px 20px;
+                width: 100%;
+                text-align: center;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+            
+            .hero {
+                padding: 30px 0;
+                margin: 10px 0;
+            }
+            
+            .benefit-item {
+                margin: 10px 0;
+                padding: 15px;
+            }
+            
+            .guarantee {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .guarantee img {
+                margin-right: 0;
+                margin-bottom: 10px;
             }
         }
     </style>
